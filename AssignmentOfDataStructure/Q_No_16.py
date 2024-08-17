@@ -1,0 +1,10 @@
+list=[1,2,3,4,6]
+n=len(list)
+i=0
+flag=True
+while(i<n-1):
+    if(list[i]>list[i+1]):
+        flag=False
+        break
+    i=i+1
+print(flag)     
